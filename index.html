@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>خدمات إدارة الأملاك</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background: url('thumbnail.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background-color: rgba(15, 69, 71, 0.85);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 20px auto;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 22px;
+      color: #ffd700;
+      padding: 20px 0;
+      letter-spacing: 1px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      color: #ffffff;
+    }
+
+    th, td {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      text-align: right;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #0f4547;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    td:contains("✗") {
+      color: #ff4c4c;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .footer-row {
+      background-color: rgba(15, 69, 71, 0.95);
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+      border-radius: 0 0 12px 12px;
+      margin-top: 20px;
+    }
+
+    .footer-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .footer-icons span {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .footer-icons i {
+      color: #ffd700;
+      font-size: 16px;
+    }
+
+    .footer-icons a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        font-size: 11px;
+      }
+
+      .container {
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      table, th, td {
+        font-size: 11px;
+        padding: 6px 4px;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      .footer-icons {
+        gap: 20px;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h1>خدمات مجموعة عبدالعزيز المنصور</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>البند</th>
+          <th>الوساطة والتأجير فقط</th>
+          <th>إدارة الأملاك المتكاملة</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>وصف الخدمة</td><td>ينتهي دور المكتب عند إتمام عملية التأجير</td><td>يستمر دور المكتب في إدارة العقار بالكامل نيابة عن المالك</td></tr>
+        <tr><td>التسويق العقاري</td><td>نشر الإعلان لمره واحده عند كل اتفاق على المنصات العقارية</td><td>تسويق مستمر للوحدات وتأجير الشواغر الجديدة أو المجددة</td></tr>
+        <tr><td>استقبال العملاء وعرض الوحدات</td><td>استقبال الاستفسارات، تنظيم زيارات ميدانية</td><td>استقبال العملاء وتولي الاجابه عن جميع الاستفسارات والخروج للوحده + متابعة الطلبات بشكل مستمر</td></tr>
+        <tr><td>التحقق من المستأجر</td><td>مراجعة المستندات قبل ابرام العقد والتأكد من صحة البيانات</td><td>مراجعة مستمرة للملفات وتحديث بيانات المستأجرين بشكل مستمر</td></tr>
+        <tr><td>التفاوض والإبرام</td><td>التفاوض بين المالك والمستأجر وإبرام العقد</td><td>التفاوض + متابعة شروط العقود وتجديدها واتمام العمليه بالكامل دون ادخال المالك بالتفاصيل الغير هامه وذلك بعد اخذ كامل اشتراطات المالك قبل التعاقد .</td></tr>
+        <tr><td>توثيق العقد</td><td>ارسال العقد للمؤجر والمستأجر ومتابعة قبول الطرفين</td><td>ارسال العقد للمؤجر والمستأجر ومتابعة قبول الطرفين</td></tr>
+        <tr><td>تسليم بيانات الوحدة</td><td>تسليم بيانات الوحدة للمستأجر عند ابرام العقد</td><td>تسليم المستأجر كافة بيانات الخدمه ومتابعة الخدمات المرفقة واي مشاكل تطرأ طوال مدة العقد</td></tr>
+        <tr><td>التحصيل</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>إصدار الفواتير، متابعة التحصيل، إصدار سندات القبض</td></tr>
+        <tr><td>الصيانة</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>استقبال طلبات الصيانة، متابعة الأعطال، تنفيذ الأعمال ومتابعة الجودة</td></tr>
+        <tr><td>الإخلاء</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>متابعة إخلاء المستأجرين وعمل المخالصات المالية و إنهاء العقود</td></tr>
+        <tr><td>كشوف الحسابات</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>تقديم تقارير دورية تفصيلية بالإيرادات والمصروفات</td></tr>
+        <tr><td>سداد الالتزامات</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>متابعه وسداد الفواتير والرسوم الحكومية الخاصة بالعقار</td></tr>
+        <tr><td>التعامل مع الجهات الخارجيه</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>التنسيق مع الجهات المعنية لتلبية المتطلبات النظامية (بلدية، كهرباء، دفاع مدني,شركة المياه)</td></tr>
+        <tr><td>كشوف الحسابات</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>تقديم تقارير دورية تفصيلية بالإيرادات والمصروفات</td></tr>
+        <tr><td>تقارير دوريه</td><td><span style="color:#ff4c4c; font-weight:bold;">✗</span></td><td>تقارير دوريه بالعقارات الشاغره والمؤجره والمستحقات والمدفوعات وبيانات المتسأجرين</td></tr>
+        <tr><td>العمولة</td><td>تحصيل عمولة من المستأجر عند إبرام العقد</td><td>تحصيل نسبة الإدارة بشكل دوري من الإيجارات يتم الاتفاق عليها عند التعاقد</td></tr>
+      </tbody>
+    </table>
+
+    <div class="footer-row">
+      <div class="footer-icons">
+        <span><i class="fas fa-map-marker-alt"></i> الدمام - طريق الملك فهد، مدينة العمال</span>
+        <span><i class="fas fa-phone"></i> <a href="tel:966553846399">0553846399</a></span>
+        <span><i class="fas fa-globe"></i> <a href="https://almansoor.info" target="_blank">almansoor.info</a></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
